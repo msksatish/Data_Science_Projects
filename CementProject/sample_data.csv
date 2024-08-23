@@ -1,0 +1,22 @@
+Column Name,Description,Data Type,Range or Example
+Timestamp,Date and time of each quality control measurement,DateTime,13-10-2023 08:30
+Material Type,Type of raw material being used for production,String,"Sand, Gravel, Cement"
+Production Rate,Rate of cement production during each period,Float,10.0 to 100.0 tons/hour
+Machine Status,Indicator of whether the cement production machine is operational,Boolean,True or False
+Downtime Duration,Duration of machine downtime due to inspections or issues,Time Duration,2 hours and 30 minutes
+Raw Material Inventory,Amount of raw materials available for production,Float,1000.0 tons
+Product Inventory,Amount of finished cement product in stock,Float,500.0 tons
+Revenue Loss,The monetary loss due to production interruptions,Currency,"$5,000.00"
+Demand Forecast,Predicted customer demand for cement,Integer,1000 units
+Actual Production,Quantity of cement produced during each period,Integer,800 units
+Reject Rate,Percentage of cement rejected due to quality issues,Percentage,5.30%
+Maintenance Log,Records of machine maintenance activities,Text,Detailed maintenance log
+Employee Productivity,Indicator of workforce efficiency during downtime,Float,0.0 to 1.0
+Energy Consumption,Energy usage during cement production,Float,1000.0 kWh
+Temperature,Ambient temperature in the production facility,Float,20.5°C
+Humidity,Relative humidity in the production area,Percentage,60%
+Supplier Performance,Assessment of raw material supplier quality,String,"Good, Fair, Poor"
+Order Fulfillment,Percentage of customer orders fulfilled,Percentage,90%
+Cost of Raw Materials,Expenses related to procuring raw materials,Currency,"$10,000.00"
+Quality Control Alarms,The number of alarms triggered for quality issues,Integer,3 alarms
+Quality,The quality assessment of cement (Target Variable),String,"High, Medium, Low"
